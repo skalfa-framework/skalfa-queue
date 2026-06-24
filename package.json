@@ -1,0 +1,26 @@
+{
+  "name": "@skalfa/skalfa-queue",
+  "version": "1.0.0",
+  "description": "Queue utility package for Skalfa API framework using Redis.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc --ignoreDeprecations 6.0"
+  },
+  "keywords": [
+    "aluna",
+    "queue",
+    "redis",
+    "skalfa"
+  ],
+  "author": "",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@skalfa/skalfa-redis": "file:../skalfa-redis",
+    "@skalfa/skalfa-api-core": "file:../skalfa-api-core"
+  },
+  "devDependencies": {
+    "@types/node": "^26.0.0",
+    "typescript": "^6.0.3"
+  }
+}
