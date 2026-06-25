@@ -1,6 +1,6 @@
 {
   "name": "@skalfa/skalfa-queue",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Redis-backed background task queue and multi-worker utility extension for Skalfa backend services.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
