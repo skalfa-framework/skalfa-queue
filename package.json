@@ -16,8 +16,8 @@
   "author": "",
   "license": "UNLICENSED",
   "dependencies": {
-    "@skalfa/skalfa-redis": "file:../skalfa-redis",
-    "@skalfa/skalfa-api-core": "file:../skalfa-api-core"
+    "@skalfa/skalfa-redis": "^1.0.0",
+    "@skalfa/skalfa-api-core": "^1.0.0"
   },
   "devDependencies": {
     "@types/node": "^26.0.0",
