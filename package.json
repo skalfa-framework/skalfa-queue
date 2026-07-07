@@ -1,23 +1,17 @@
 {
   "name": "@skalfa/skalfa-queue",
-  "version": "1.0.7",
-  "description": "Redis-backed background task queue and multi-worker utility extension for Skalfa backend services.",
+  "version": "1.0.8",
+  "license": "MIT",
+  "description": "Background task queue and multi-worker with redis for Skalfa Framework.",
+  "keywords": ["skalfa", "skalfa-api", "skalfa-queue", "bun-framework", "elysia-framework"],
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc --ignoreDeprecations 6.0"
+    "build": "tsc"
   },
-  "keywords": [
-    "aluna",
-    "queue",
-    "redis",
-    "skalfa"
-  ],
-  "author": "",
-  "license": "MIT",
   "dependencies": {
-    "@skalfa/skalfa-redis": "^1.0.0",
-    "@skalfa/skalfa-api-core": "^1.0.12"
+    "@skalfa/skalfa-redis": "*",
+    "@skalfa/skalfa-api-core": "*"
   },
   "devDependencies": {
     "@types/node": "^26.0.0",
