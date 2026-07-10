@@ -1,13 +1,19 @@
 {
   "name": "@skalfa/skalfa-queue",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "license": "MIT",
   "description": "Background task queue and multi-worker with redis for Skalfa Framework.",
-  "keywords": ["skalfa", "skalfa-api", "skalfa-queue", "bun-framework", "elysia-framework"],
+  "keywords": [
+    "skalfa",
+    "skalfa-api",
+    "skalfa-queue",
+    "bun-framework",
+    "elysia-framework"
+  ],
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc -p tsconfig.build.json"
   },
   "dependencies": {
     "@skalfa/skalfa-redis": "*",
